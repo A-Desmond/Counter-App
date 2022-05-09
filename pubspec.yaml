@@ -1,0 +1,27 @@
+name: counter_app
+description: Counter app with Riverpod.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^3.3.17
+  firebase_core: ^1.16.0
+  firebase_database: ^9.0.13
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.0.0-dev.5
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
